@@ -12,6 +12,8 @@
         </div>
     </section>
 
+    <div class="color-design"></div>
+
     <h1 class="offered-courses-text" id="offered-courses-text">Our Offered Courses Right Now</h1>
     <div class="sample-courses">
         <div class="flip-card">
