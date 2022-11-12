@@ -22,7 +22,7 @@
                     <img src="./media/images/sample1.png" class="flip-card-img">
                 </div>
                 <div class="flip-card-back">
-                    <h1>Computer Securityasdasd</h1> 
+                    <h1>Computer Security</h1> 
                     <p>Teacher: Mr. Elon Musk</p> 
                     <p>Course Starts on: 12 March, 2023</p>
                     <p>Course Ends on: 12 July, 2023</p>
