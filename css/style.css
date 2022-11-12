@@ -14,13 +14,9 @@ color themes -
 	padding: 0;
 	box-sizing: border-box;
 	max-width: 100%;
-    font-family: 'Poppins', sans-serif; 
-<<<<<<< HEAD
-   
+    font-family: 'Poppins', sans-serif;    
 }
 body{
-=======
->>>>>>> e64ecc52610cd9fe18497edb47c51f7cd12f3e0d
     background: #c8d8e4;
 }
 
@@ -69,11 +65,8 @@ header ul li a:hover{
 }
 
 ::-webkit-scrollbar-thumb {
-<<<<<<< HEAD
 	/* background: #f2f2f2; */
-=======
 	background: #f2f2f2;
->>>>>>> e64ecc52610cd9fe18497edb47c51f7cd12f3e0d
 	border-radius:6px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -159,7 +152,7 @@ header ul li a:hover{
 }
 
 .flip-card-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
     background-size: cover;
 }
@@ -222,7 +215,6 @@ header ul li a:hover{
 
 .course-main {
     position: relative;
-<<<<<<< HEAD
 }
 /* footer css  */
 .foot-container{
@@ -355,17 +347,13 @@ map{
 }
 /*responsive*/
 @media(max-width: 767px){
-  .footer-col{
+    .footer-col{
     width: 50%;
     margin-bottom: 30px;
 }
 }
 @media(max-width: 574px){
-  .footer-col{
+    .footer-col{
     width: 100%;
 }
 }
-
-=======
-}
->>>>>>> e64ecc52610cd9fe18497edb47c51f7cd12f3e0d
