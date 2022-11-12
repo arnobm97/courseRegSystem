@@ -6,9 +6,9 @@
     <div class="selector">
         <div id="selectField">
             <p id="selectText">Select Your Interested Field</p>
-            <img src="media/images/arrow.png" >
+            <img src="media/images/arrow.png" id ="arrowicon" >
         </div>
-        <ul id="list">
+        <ul id="list" class="hide">
             <li class="options">
             <img src="media/images/student1.png" >
                 <p>Student</p>
@@ -27,23 +27,27 @@
             </li>
         </ul>
     </div>
+    <button class="submit-btn">Submit</button>
 </div>
 <script>
     var selectField= document.getElementById("selectField");
     var selectText= document.getElementById("selectText");
     var options= document.getElementsByClassName("options");
+    var list= document.getElementById("list");
+    var arrowicon= document.getElementById("arrowicon");
 
+    selectField.onclick= function(){
+        list.classList.toggle("hide");
+        arrowicon.classList.toggle("rotate");
+    }
     for(option of options){
         option.onclick = function(){
             selectText.innerHTML = this.textContent;
+            list.classList.toggle("hide");
+            arrowicon.classList.toggle("rotate");
         } 
     }
 </script>
 <?php
     include "includes/footer.php";
 ?>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 284b8ade28b8346ced99445f37bf8f63e26452c8
