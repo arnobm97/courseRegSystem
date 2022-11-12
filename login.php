@@ -1,11 +1,7 @@
 <?php
     include "includes/header.php";
     include "includes/navbar.php";
-//     include "includes/dbConfig.php";
-// ?>
-<!-- 
-Here will only be a select box where user will input if he is a student or account or advisor or register. Depending on the input user will be redirected to the certain login page. 
--->
+?>
 <div class="hero">
     <div class="selector">
         <div id="selectField">
@@ -46,3 +42,8 @@ Here will only be a select box where user will input if he is a student or accou
 <?php
     include "includes/footer.php";
 ?>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 284b8ade28b8346ced99445f37bf8f63e26452c8

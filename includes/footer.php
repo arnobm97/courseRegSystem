@@ -2,7 +2,6 @@
     <script type="text/javascript" src="/coursereg/js/app.js"></script>
 
 </body>
-<<<<<<< HEAD
 
 <footer class="footer">
   	 <div class="foot-container">
@@ -38,6 +37,4 @@
   	 	</div>
   	 </div>
   </footer>
-=======
->>>>>>> e64ecc52610cd9fe18497edb47c51f7cd12f3e0d
 </html>
