@@ -391,3 +391,9 @@ map{
     width: 100%;
 }
 }
+/* For Shahadat Screen Laptop */
+@media only screen and (max-width:1366px) {
+    .submit-btn {
+        top: 30%;
+    }
+}
