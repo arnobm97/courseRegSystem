@@ -127,6 +127,7 @@ header ul li a:hover{
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin-top: 5vh;
 }
 
 .flip-card-inner {
@@ -196,10 +197,10 @@ header ul li a:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
     flex-direction: column;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .courses-card {
@@ -216,8 +217,35 @@ header ul li a:hover{
 .course-main {
     position: relative;
 }
+.enroll-btn{
+    width: 100px;
+	background-color: rgba(255,255,255,0.7);
+	border: none;
+	outline: none;
+	height: 40px;
+	border-radius: 0.3rem;
+	/* display: block; */
+	color: #fff;
+	font-weight: 600;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+    color: black;
+    position: relative;
+    top: 15%;
+  
+}
+.enroll-btn.transparent:hover {
+	background-color: white;
+	color: #2b6777;
+}
+
+.enroll-btn:hover {
+	background-color: #52ab98;
+}
 /* footer css  */
 .foot-container{
+    
 	max-width: 1170px;
 	margin:auto;
 }
@@ -231,7 +259,10 @@ header ul li a:hover{
 .footer{
 	background-color:lightslategray;
     padding: 70px 0;
+    padding-left: 30vh;
     margin-top: 20px;
+    position: relative;
+    bottom: 0;
 }
 .footer-col{
    width: 25%;
@@ -257,6 +288,10 @@ header ul li a:hover{
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
+}
+.footer-col ul li{
+	margin-bottom: 10px;
+    list-style: none;
 }
 .footer-col ul li a{
 	font-size: 16px;
@@ -287,10 +322,6 @@ header ul li a:hover{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-}
-map{
-    position: absolute;
-    left: 60%;
 }
 /* login page css */
 .hero{
@@ -379,7 +410,130 @@ map{
 .submit-btn:hover {
 	background-color: #52ab98;
 }
-/*responsive*/
+/* login form for different interested fields css */
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background: #c8d8e4;
+    z-index: 100;
+  }
+  
+  .container .form-1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    width: 20%;
+   
+  }
+  
+  .form-1 h1 {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+  #email{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    background: none;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+  input[type="email"],
+  input[type="password"] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    background: none;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+  }
+  
+  label {
+    margin: 0 2rem;
+  }
+  
+  span {
+    margin: 0 2rem;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .login-btn1{
+    
+    margin-left: 20px;
+    width: 330px;
+	background-color: rgba(255,255,255,0.7);
+	border: none;
+	outline: none;
+	height: 49px;
+	border-radius: 0.3rem;
+	color: #fff;
+	font-weight: 600;
+	margin: 10px 0;
+	cursor: pointer;
+	transition: 0.5s;
+    color: black;
+    position: relative;
+    right: -7%;
+}
+.login-btn1.transparent:hover {
+	background-color: white;
+	color: #2b6777;
+}
+
+.login-btn1:hover {
+	background-color: #52ab98;
+}
+ 
+  
+
+  
+  /* responsive */
+  
+  @media (max-width: 501px) {
+    html {
+      font-size: 15px;
+    }
+  
+    .container .form-1 {
+      width: 300px;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .container .form-1 {
+      width: 450px;
+    }
+  }
+  @media (min-width: 765px) and (max-width: 1200px) {
+    html {
+      font-size: 18px;
+    }
+  
+    .container .form-1 {
+      width: 540px;
+      height: 550px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .container {
+      height: 100vmax;
+    }
+  }
+ 
+
 @media(max-width: 767px){
     .footer-col{
     width: 50%;
