@@ -4,7 +4,7 @@ Here, courses-card is set to be a display:grid. but if there are more items then
 There will be an enroll button input type of submit afer details
  -->
 
-<?php
+ <?php
     include "../includes/header.php";
     include "../includes/navbar.php";
     include "../includes/dbConfig.php";
