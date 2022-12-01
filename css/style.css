@@ -127,6 +127,7 @@ header ul li a:hover{
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin-top: 5vh;
 }
 
 .flip-card-inner {
@@ -196,10 +197,12 @@ header ul li a:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
     flex-direction: column;
     width: 100%;
-    position: absolute;
+    position: relative;
+    top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .courses-card {
@@ -232,6 +235,7 @@ header ul li a:hover{
 	background-color:lightslategray;
     padding: 70px 0;
     margin-top: 20px;
+    position: relative;
 }
 .footer-col{
    width: 25%;
