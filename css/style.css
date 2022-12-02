@@ -493,7 +493,134 @@ header ul li a:hover{
 }
  
   
+/* course-form css */
+.form-container{
+    margin-top: 10vh;
+	min-width: 100vh;
+	min-height: 100vh;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.inventor-header {
+	text-align: center;
+	font-size: larger;
+    
+}
+.input-post{
+	text-align: center;
+	color: #2b6777;
+	font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	/* font-size:xx-small; */
+	
+}
+.wrapper{
+	width: 400px;
+	/* border-radius: 5px; */
+	padding: 0px 25px 30px;
+	/* box-shadow: 8px 8px 10px rgba(0,0,0,0.06); */
+}
+.wrapper h2{
+	color: #2b6777;
+	font-size: 28px;
+	text-align: center;
+}
+.wrapper textarea{
+	width: 100%;
+	resize: none;
+	height: 59px;
+	outline: none;
+	padding: 15px;
+	font-size: 16px;
+	margin-top: 20px;
+	border-radius: 5px;
+	max-height: 330px;
+	caret-color: #2b6777;
+	border: 1px solid #bfbfbf;
+}
+textarea::placeholder{
+	color: #b3b3b3;
+}
+textarea:is(:focus, :valid){
+	padding: 14px;
+	border: 2px solid #2b6777;
+}
+textarea::-webkit-scrollbar{
+	width: 0px;
+}
+.post-text{
+	width: 100%;
+	resize: none;
+	height: 59px;
+	outline: none;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+	max-height: 330px;
+	caret-color: #2b6777;
+	border: 1px solid #bfbfbf;
+	}
+.post-text::placeholder{
+	color: #b3b3b3;
+	}
+.post-text:is(:focus, :valid){
+	padding: 14px;
+	border: 2px solid #2b6777;
+	}
+	.post-text::-webkit-scrollbar{
+	width: 0px;
+	}
+	input {
+		padding: 10px;
+		/* width: 100%; */
+		font-size: 17px;
+		font-family: Raleway;
+		border: 1px solid #aaaaaa;
+	}
+	
+	  /* Mark input boxes that gets an error on validation: */
+	input.invalid {
+		background-color: #ffdddd;
+	}
+.post-left{
+	width:fit-content;
+	height: fit-content;
+	border: 1px #2b6777 solid;
+	margin:20px ;
+	display: flex;
+    padding: 20px;
+	flex-direction: column;
+	/* align-items: flex-end; */
+}
+.select-button2{
+	width: 100px;
+	background-color: #2b6777;
+	border: none;
+	outline: none;
+	height: 20px;
+	border-radius: 0.3rem;
+	/* display: block; */
+	color: #fff;
+	font-weight: 400;
+	cursor: pointer;
+    padding: 5px;
+    position: relative;
+    left: 26%;
 
+}
+.select-button2.transparent:hover {
+	background-color: white;
+	color: #2b6777;
+}
+
+.select-button2:hover {
+	background-color: #52ab98;
+}
+.hidden{
+    display: none;
+}
   
   /* responsive */
   
