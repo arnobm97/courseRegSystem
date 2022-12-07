@@ -1,6 +1,6 @@
 <?php
-    include "includes/header.php";
-    include "includes/navbar.php";
+    include "../includes/header.php";
+    include "../includes/navbar.php";
 ?>
        <div class="container">
       <form class="form-1" method="post">
@@ -17,5 +17,5 @@
       </form>
     </div>
 <?php
-    include "includes/footer.php";
+    include "../includes/footer.php";
 ?>

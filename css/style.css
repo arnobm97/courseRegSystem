@@ -219,21 +219,19 @@ header ul li a:hover{
 }
 .enroll-btn{
     width: 100px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: #c8d8e4;
 	border: none;
 	outline: none;
 	height: 40px;
 	border-radius: 0.3rem;
-	/* display: block; */
-	color: #fff;
+    font-family: 'Poppins', sans-serif;
 	font-weight: 600;
-	margin: 10px 0;
 	cursor: pointer;
 	transition: 0.5s;
     color: black;
     position: relative;
-    top: 15%;
-  
+    padding: 0px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .enroll-btn.transparent:hover {
 	background-color: white;

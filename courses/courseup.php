@@ -1,6 +1,6 @@
 <?php
-    include "includes/header.php";
-    include "includes/navbar.php";
+    include "../includes/header.php";
+    include "../includes/navbar.php";
     // include "includes/dbConfig.php";
 ?>
 <div class="form-container">
@@ -40,5 +40,5 @@
     </section>
 </div>
 <?php
-    include "includes/footer.php";
+    include "../includes/footer.php";
 ?>

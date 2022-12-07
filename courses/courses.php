@@ -26,6 +26,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -41,6 +42,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -56,6 +58,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -71,6 +74,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -86,6 +90,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -101,6 +106,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -116,6 +122,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -131,6 +138,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -146,6 +154,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>
@@ -161,6 +170,7 @@ There will be an enroll button input type of submit afer details
                     <p>Course Ends on: 12 July, 2023</p>
                     <p>Course Fees: 4000 BDT</p>
                     <abbr title="computer security, also called cybersecurity, the protection of computer systems and information from harm, theft, and unauthorized use. Computer hardware is typically protected by the same means used to protect other valuable or sensitive equipment—namely, serial numbers, doors and locks, and alarms. The protection of information and system access, on the other hand, is achieved through other tactics, some of them quite complex.">Details</abbr>
+                    <p><input type="submit" value="Enroll" class="enroll-btn"></p>
                 </div>
             </div>
         </div>

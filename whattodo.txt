@@ -1,0 +1,9 @@
+# Student Login page
+# Student registration e batch name and university id o thakbe
+# reg dept, teacher dept, acc dept e table thakbe jekhane student er information thakbe and confirm/wait option thakbe
+
+< Table Sample >
+| Stu name | Stu id | Stu batch | Payment | Which course to enroll | Clearance from teacher (Yes/No) | Clearance from Registar (Yes/No) | Clearance from accounts (Yes/No) |
+
+
+# Student feed jeikhane shob courses gula show korbe and dashboard jeikhane enroll course gula show korbe
