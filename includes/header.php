@@ -17,4 +17,4 @@
             <li><a href="/coursereg/courses/courses.php">Courses</a></li>
             <li><a href="/coursereg/login.php" target="_blank">Login</a></li>
         </ul>
-</header>
+    </header>

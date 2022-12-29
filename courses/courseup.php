@@ -17,6 +17,11 @@
                     <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
                 </div>
                 <div class="wrapper">
+                <div class="input-post"> Details of the Course </div>  
+                
+                    <input type="textarea"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                </div>
+                <div class="wrapper">
                 <div class="input-post"> Who is Taking the Course  </div>  
                 
                     <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
@@ -35,6 +40,10 @@
                 <div class="input-post"> Course Fees </div>  
                 
                     <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                </div>
+                <div style="display:flex; align-items:center; justify-content:center;">
+
+                <input type="submit" class="enroll-btn" name="courseSubmitBtn"> 
                 </div>
             </form>
     </section>
