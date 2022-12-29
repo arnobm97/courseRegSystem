@@ -7,21 +7,21 @@
 <div class="foot-container">
 	<div class="row">
 		<div class="footer-col">
-			<h4>company</h4>
+			<h4>Go to</h4>
 			<ul>
-				<li><a href="#">about us</a></li>
-				<li><a href="#">our services</a></li>
-				<li><a href="#">privacy policy</a></li>
-				<li><a href="#">affiliate program</a></li>
+				<li><a href="../students/stuLogin.php">Student Login</a></li>
+				<li><a href="../accdept/accLogin.php">Accounts Login</a></li>
+				<li><a href="../advisordept/advLogin.php">Advisor Login</a></li>
+				<li><a href="../registerdept/regLogin.php">Registrar Login</a></li>
 			</ul>
 		</div>
 		<div class="footer-col">
-			<h4>Departments</h4>
+			<h4>Find</h4>
 			<ul>
-				<li><a href="#">Dep1</a></li>
-				<li><a href="#">Dep2</a></li>
-				<li><a href="#">Dep3</a></li>
-				<li><a href="#">Dep4</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Terms and Policies</a></li>
+				<li><a href="#">Any questions?</a></li>
 			</ul>
 		</div>
 	
