@@ -1,1 +1,21 @@
-<!-- A login page will be here. Inputs will be university id, email and pass -->
+<?php
+    include "../includes/header.php";
+    include "../includes/navbar.php";
+?>
+       <div class="container">
+      <form class="form-1" method="post">
+        <h2>Students Login</h2>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+        <!-- <span>Forgot Password</span> -->
+        <button class="login-btn1">Login</button>
+
+        <!-- .........///sign-up///.......... -->
+
+      </form>
+    </div>
+<?php
+    include "../includes/footer.php";
+?>

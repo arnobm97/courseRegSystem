@@ -14,7 +14,7 @@ color themes -
 	padding: 0;
 	box-sizing: border-box;
 	max-width: 100%;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif !important;    
 }
 body{
     background: #c8d8e4;
@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 8;
+    z-index: 999;
 }
 
 .nav-logo {
@@ -414,11 +414,15 @@ header ul li a:hover{
     margin: 0 auto;
     position: relative;
     background: #c8d8e4;
-    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .container .form-1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: absolute;
     top: 50%;
@@ -464,9 +468,7 @@ header ul li a:hover{
   }
   
   .login-btn1{
-    
-    margin-left: 20px;
-    width: 330px;
+    width: 80%;
 	background-color: rgba(255,255,255,0.7);
 	border: none;
 	outline: none;
@@ -479,7 +481,6 @@ header ul li a:hover{
 	transition: 0.5s;
     color: black;
     position: relative;
-    right: -7%;
 }
 .login-btn1.transparent:hover {
 	background-color: white;
