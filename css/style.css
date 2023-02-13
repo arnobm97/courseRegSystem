@@ -219,7 +219,6 @@ header ul li a:hover{
 }
 .enroll-btn{
     width: 100px;
-	background-color: #c8d8e4;
 	border: none;
 	outline: none;
 	height: 40px;
@@ -653,6 +652,7 @@ td {
     border-bottom: 1px solid #dddddd;
     padding: 10px 20px;
     font-size: 14px;
+    text-align: center;
 }
 
 td img {
@@ -690,6 +690,7 @@ tr:hover td {
 }
 .table-btn:hover {
 	background-color: #44b478;
+    color:white;
 }
 td button {
     border: none;
@@ -714,6 +715,54 @@ td button {
 ::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+.logout-btn button {
+    width: 80px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 0.3rem;
+    font-weight:600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+   
+}
+
+.logout-btn .transparent:hover {
+    background-color: white;
+    color: #4d84e2;
+}
+.logout-btn :hover {
+    background-color: #52ab98;
+}
+
+.username-btn button {
+    width: 80px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 0.3rem;
+    font-weight:600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    right: 18vw;
+    top: 6vw;
+  
+}
+
+.username-btn .transparent:hover {
+    background-color: white;
+    color: #4d84e2;
+}
+.username-btn :hover {
+    background-color: #52ab98;
+}
+
   /* responsive */
   
   @media (max-width: 501px) {
