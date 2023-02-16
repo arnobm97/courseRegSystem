@@ -5,6 +5,12 @@
 ?>
    
     <div class="container">
+    <div class="btn-section">
+            <div class="username-btn"><button></button></div>
+                <a href="../index.php">
+                    <div class="logout-btn"><button>logout</button></div>
+                </a>
+            </div>
         <hr>
         <input type="text" id="myInput" onkeyup='tableSearch()' placeholder="Name">
 
