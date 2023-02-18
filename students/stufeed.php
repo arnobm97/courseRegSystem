@@ -4,10 +4,12 @@ include "../includes/navbar.php";
 include "../includes/dbConfig.php";
 session_start();
 ?>
-<div class="stu-nav">
-    <p class="nav-content">user</p>
-    <p class="nav-content">logout</p>
-</div>
+<div class="btn-section">
+            <div class="username-btn"><button></button></div>
+                <a href="../index.php">
+                    <div class="logout-btn"><button>logout</button></div>
+                </a>
+            </div>
 <div class="course-wrapper">
     <h1 class="course-title-text">Courses for Summer 2023</h1>
 
