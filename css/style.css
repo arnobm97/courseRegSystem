@@ -225,14 +225,14 @@ header ul li a:hover {
 }
 .enroll-btn {
     width: 100px;
-	border: none;
-	outline: none;
-	height: 40px;
-	border-radius: 0.3rem;
-    font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	cursor: pointer;
-	transition: 0.5s;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 0.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
     color: black;
     position: relative;
     padding: 0px !important;
@@ -682,8 +682,8 @@ tr:hover td {
     transition: 0.5s;
 }
 .table-btn:hover {
-	background-color: #44b478;
-    color:white;
+    background-color: #44b478;
+    color: white;
 }
 td button {
     border: none;
@@ -714,14 +714,13 @@ td button {
     outline: none;
     height: 40px;
     border-radius: 0.3rem;
-    font-weight:600;
+    font-weight: 600;
     margin: 10px 0;
     cursor: pointer;
     transition: 0.2s;
     position: absolute;
     top: 6vw;
     right: 10vw;
-   
 }
 
 .logout-btn .transparent:hover {
@@ -738,14 +737,13 @@ td button {
     outline: none;
     height: 40px;
     border-radius: 0.3rem;
-    font-weight:600;
+    font-weight: 600;
     margin: 10px 0;
     cursor: pointer;
     transition: 0.2s;
     position: absolute;
     right: 18vw;
     top: 6vw;
-  
 }
 
 .username-btn .transparent:hover {
@@ -756,9 +754,9 @@ td button {
     background-color: #52ab98;
 }
 
-  /* responsive */
-  
-  @media (max-width: 501px) {
+/* responsive */
+
+@media (max-width: 501px) {
     html {
         font-size: 15px;
     }
