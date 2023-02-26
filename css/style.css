@@ -371,6 +371,7 @@ header ul li a:hover {
     position: absolute;
     top: 12px;
     left: 25px;
+    background:transparent;
 }
 .options:hover {
     background: rgba(255, 255, 255, 0.7);
@@ -396,8 +397,8 @@ header ul li a:hover {
     transition: 0.5s;
     color: black;
     position: relative;
-    top: 22%;
-    right: 13%;
+    top: 27%;
+    right: 14%;
 }
 .submit-btn.transparent:hover {
     background-color: white;
@@ -429,7 +430,7 @@ header ul li a:hover {
     /* transform: translate(-50%, -50%); */
     background: rgba(255, 255, 255, 0.7);
     border-radius: 6px;
-    width: 40%;
+    width: 20%;
     margin-top: 15vh;
 }
 
@@ -447,6 +448,7 @@ header ul li a:hover {
     font-size: 1rem;
 }
 input[type="email"],
+input[type="text"],
 input[type="password"] {
     border: none;
     outline: none;
@@ -673,16 +675,32 @@ tr:hover td {
 }
 .table-btn {
     background: transparent;
-    width: 65px;
+    min-width: 65px;
     border: none;
     outline: none;
-    height: 39px;
+    min-height: 39px;
     border-radius: 0.3rem;
     cursor: pointer;
     transition: 0.5s;
+    font-family: "Poppins", serif;
 }
 .table-btn:hover {
     background-color: #44b478;
+    color: white;
+}
+.delete-btn {
+    background: transparent;
+    min-width: 65px;
+    border: none;
+    outline: none;
+    min-height: 39px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Poppins", serif;
+}
+.delete-btn:hover {
+    background-color: #ff3131;
     color: white;
 }
 td button {

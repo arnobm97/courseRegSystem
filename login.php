@@ -25,6 +25,10 @@
             <img src="media/images/register.png" >
                 <p>Regsitrar</p>
             </li>
+            <li class="options">
+            <img src="media/images/admin.jpg" >
+                <p>Admin</p>
+            </li>
         </ul>
     </div>
     <button class="submit-btn" onclick="redirectLogin()">Submit</button>
