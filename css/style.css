@@ -449,6 +449,7 @@ header ul li a:hover {
 }
 input[type="email"],
 input[type="text"],
+input[type="date"],
 input[type="password"] {
     border: none;
     outline: none;

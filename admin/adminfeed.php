@@ -32,9 +32,9 @@ if (isset($_POST['loginbtn'])) {
       <label for="cour_name">Course Name</label>
       <input type="text" name="cour_name" class="input_field" required />
       <label for="assigned_teacher">Assigned Teacher</label>
-      <input type="text" name="Assigned Teacher" class="input_field" required />
+      <input type="date" name="Assigned Teacher" class="input_field" required />
       <label for="cour_name">Course Start Date</label>
-      <input type="text" name="cour_start" class="input_field" required />
+      <input type="date" name="cour_start" class="input_field" required />
       <label for="cour_name">Course End Date</label>
       <input type="text" name="cour_end" class="input_field" required />
       <label for="assigned_teacher">Course Fees</label>
