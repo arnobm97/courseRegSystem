@@ -7,3 +7,4 @@ $register = 'register';
 $courses = 'courses';
 $confirmCourses = 'confirmcourses';
 $pendingReq = 'pendingreq';
+$admin = 'admin';

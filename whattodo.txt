@@ -1,4 +1,9 @@
 # Login a new option add hobe Admin (admin er file ami shob create kore diyechhi)
-#admin login new page o create korte hobe same baki gular motoi
+# Admin login new page o create korte hobe same baki gular motoi
 # Admin feed e new course upload korar ekta form thakbe. Demo course gulay jeishob information achhe shob gular jonno input field thakbe
 # Admin dashboard e table thakbe baki table gular motoi, oikhane course er information thakbe shob and last e 'update' & 'delete' duita button thakbe
+> done
+
+# Course upload er jaygay thumbnail picture upload er input field add hobe
+# Course details er textarea field add hobe
+# Course fees er design ta thik korte hobe baki gular moto
