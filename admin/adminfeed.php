@@ -9,7 +9,7 @@ include "../includes/dbConfig.php";
     <div class="username-btn"><button onclick="gotoadmindash()">
         <?= $_SESSION['username_admin'] ?>
       </button></div>
-    <a href="../index.php">
+    <a href="/coursereg/logout.php">
       <div class="logout-btn"><button>logout</button></div>
     </a>
   </div>

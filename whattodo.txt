@@ -4,6 +4,7 @@
 # Admin dashboard e table thakbe baki table gular motoi, oikhane course er information thakbe shob and last e 'update' & 'delete' duita button thakbe
 > done
 
+# Stufeed er username, logout kono btn ei click pore na.
 # Course upload er jaygay thumbnail picture upload er input field add hobe
 # Course details er textarea field add hobe
 # Course fees er design ta thik korte hobe baki gular moto
@@ -11,3 +12,4 @@
 # Font awesome website theke newa ekta kit 2 ta site e use kora jay na. eei site er jonno new ekta kit niye link ta add korte hobe. ei jonnoi icon show kore na kono
 # Contact us & Any Question page e just form thakbe. ektay contact us likha thakbe arektay send your queries likha thakbe.
 # Admin Dashboard e admin btn er pashe upload naam e arekta btn thakbe
+# username btn gular css thik korte hobe. username ektu boro holei btn er baire chole jaay

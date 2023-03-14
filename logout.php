@@ -2,5 +2,5 @@
 session_start();
 session_unset();
 session_destroy();
-echo "<script>window.location='/ams/index.php';</script>";
+echo "<script>window.location='/coursereg/index.php';</script>";
 ?>

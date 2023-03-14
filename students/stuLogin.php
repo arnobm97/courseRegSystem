@@ -28,7 +28,9 @@ if (isset($_POST['stulogin'])) {
 
   if ($row > 0) {
     $_SESSION['username'] = $data['username'];
-    echo "<script>window.location='/coursereg/students/stuFeed.php'</script>";
+    $_SESSION['userid'] = $data['stuID'];
+    // echo "<script>window.location='/coursereg/students/stuFeed.php'</script>";
+    echo $_SESSION['userid'];
   } else {
     echo "<script>
     alert('Wrong username or password');
