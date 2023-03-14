@@ -13,7 +13,7 @@ $result = $mysqli->query($fetchsql) or die($mysqli->error);
 ?>
 <div class="container">
     <div class="btn-section">
-        <div class="username-btn"><button>
+        <div class="username-btn"><button onclick="gotoadmindash()">
                 <?= $_SESSION['username_admin'] ?>
             </button></div>
         <a href="/coursereg/logout.php">
@@ -80,6 +80,10 @@ $result = $mysqli->query($fetchsql) or die($mysqli->error);
             }
         }
 
+    }
+
+    function gotoadmindash() {
+        window.location = '/coursereg/admin/admindashboard.php';
     }
 </script>
 <?php

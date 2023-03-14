@@ -6,7 +6,7 @@ include "../includes/dbConfig.php";
 
 <div class="container">
   <div class="btn-section">
-    <div class="username-btn"><button>
+    <div class="username-btn"><button onclick="gotoadmindash()">
         <?= $_SESSION['username_admin'] ?>
       </button></div>
     <a href="../index.php">
@@ -28,6 +28,12 @@ include "../includes/dbConfig.php";
     <input type="submit" name="submitbtn" value="Upload" class="login-btn1">
   </form>
 </div>
+
+<script>
+  function gotoadmindash() {
+    window.location = '/coursereg/admin/admindashboard.php';
+  }
+</script>
 
 <?php
 
