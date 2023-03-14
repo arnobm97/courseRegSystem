@@ -7,3 +7,6 @@
 # Course upload er jaygay thumbnail picture upload er input field add hobe
 # Course details er textarea field add hobe
 # Course fees er design ta thik korte hobe baki gular moto
+# Course update page e every field er sathe update button dite hobe
+# Font awesome website theke newa ekta kit 2 ta site e use kora jay na. eei site er jonno new ekta kit niye link ta add korte hobe. ei jonnoi icon show kore na kono
+# Contact us & Any Question page e just form thakbe. ektay contact us likha thakbe arektay send your queries likha thakbe.
