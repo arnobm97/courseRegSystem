@@ -91,7 +91,83 @@ header ul li a:hover {
     animation: slidein 2s;
     width: 200px;
 }
+/* contact css */
+.edit-pro-container {
+    min-height: 50vh;
+    margin-top: 100px;
+}
+.form-style-6 {
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #f7f7f7;
+}
+.form-style-6 h3 {
+    background: #2b6777;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.form-style-6 input[type="password"],
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="password"]:focus,
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus {
+    box-shadow: 0 0 5px #2b6777;
+    padding: 3%;
+    border: 1px solid #2b6777;
+}
 
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #2b6777;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover {
+    background: #2ebc99;
+}
 @keyframes slidein {
     0% {
         width: 0px;
@@ -447,7 +523,8 @@ header ul li a:hover {
     margin: 0.9rem 2rem;
     font-size: 1rem;
 }
-input[type="email"],
+/* input[type="email"],
+input[type="textarea"],
 input[type="text"],
 input[type="date"],
 input[type="password"] {
@@ -457,7 +534,7 @@ input[type="password"] {
     background: none;
     margin: 0.9rem 2rem;
     font-size: 1rem;
-}
+} */
 
 label {
     margin: 0 2rem;
@@ -468,21 +545,20 @@ span {
     color: blue;
     cursor: pointer;
 }
-
 .login-btn1 {
-    width: 80%;
+    max-width: 120%;
     background-color: rgba(255, 255, 255, 0.7);
     border: none;
     outline: none;
     height: 49px;
     border-radius: 0.3rem;
     color: #fff;
-    font-weight: 600;
     margin: 10px 0;
     cursor: pointer;
     transition: 0.5s;
     color: black;
     position: relative;
+    font-family: "Poppins", sans-serif !important;
 }
 .login-btn1.transparent:hover {
     background-color: white;
@@ -492,7 +568,30 @@ span {
 .login-btn1:hover {
     background-color: #52ab98;
 }
+.login-btn2 {
+    max-width: 120%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 0.3rem;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    color: black;
+    position: relative;
+    font-family: "Poppins", sans-serif !important;
+    margin-left: 20px;
+}
+.login-btn2.transparent:hover {
+    background-color: white;
+    color: #2b6777;
+}
 
+.login-btn2:hover {
+    background-color: #52ab98;
+}
 /* course-form css */
 .form-container {
     margin-top: 10vh;
@@ -547,28 +646,6 @@ textarea:is(:focus, :valid) {
     border: 2px solid #2b6777;
 }
 textarea::-webkit-scrollbar {
-    width: 0px;
-}
-.post-text {
-    width: 100%;
-    resize: none;
-    height: 59px;
-    outline: none;
-    padding: 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    max-height: 330px;
-    caret-color: #2b6777;
-    border: 1px solid #bfbfbf;
-}
-.post-text::placeholder {
-    color: #b3b3b3;
-}
-.post-text:is(:focus, :valid) {
-    padding: 14px;
-    border: 2px solid #2b6777;
-}
-.post-text::-webkit-scrollbar {
     width: 0px;
 }
 input {
@@ -739,7 +816,8 @@ td button {
     transition: 0.2s;
     position: absolute;
     top: 6vw;
-    right: 10vw;
+    right: 13vw;
+    z-index: 1000;
 }
 
 .logout-btn .transparent:hover {
@@ -751,7 +829,7 @@ td button {
 }
 
 .username-btn button {
-    width: 80px;
+    min-width: 80px;
     border: none;
     outline: none;
     height: 40px;
@@ -761,8 +839,9 @@ td button {
     cursor: pointer;
     transition: 0.2s;
     position: absolute;
-    right: 18vw;
+    right: 21vw;
     top: 6vw;
+    z-index: 1000;
 }
 
 .username-btn .transparent:hover {

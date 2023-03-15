@@ -56,6 +56,7 @@ $result = $mysqli->query($fetchsql) or die($mysqli->error);
             </tr>
         <?php } ?>
     </table>
+    <input type="submit" name="submitbtn" value="Upload" class="login-btn2" >
 </div>
 
 <script type="application/javascript">

@@ -13,33 +13,27 @@
 
                 <div class="wrapper">
                 <div class="input-post"> Name of the Course </div>  
-                
-                    <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div class="wrapper">
                 <div class="input-post"> Details of the Course </div>  
-                
-                    <input type="textarea"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div class="wrapper">
                 <div class="input-post"> Who is Taking the Course  </div>  
-                
-                    <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div class="wrapper">
                 <div class="input-post"> Course Starting Date</div>  
-                
-                    <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div class="wrapper">
                 <div class="input-post"> Course Ending Date </div>  
-                
-                    <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div class="wrapper">
                 <div class="input-post"> Course Fees </div>  
-                
-                    <input type="text"class="post-text" spellcheck="false" placeholder="Type something here..."name="title" required>
+                <textarea spellcheck="false" name="typeofinvest" placeholder="Type something here..."></textarea>
                 </div>
                 <div style="display:flex; align-items:center; justify-content:center;">
 
